@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-toss-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 50%;
+  padding: 25px;
+}
+
+.heading {
+  color: #a35200;
+  font-family: 'Roboto';
+}
+
+.description {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.coin-image {
+  width: 220px;
+  height: 220px;
+}
+
+.coin-btn {
+  color: #a35200;
+  background-color: #f9d423;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+}
+
+.counts-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.count {
+  margin-right: 20px;
+  color: #475569;
+  font-family: "Roboto";
+}
